@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.provider.Settings
+import android.view.View
 import android.webkit.*
 import android.widget.ProgressBar
 import com.gdrna.boulfaf.AP.DDG
@@ -134,6 +135,7 @@ class G9B3 : AppCompatActivity() {
 
     @SuppressLint("SetJavaScriptEnabled")
     fun sabchikWea(uiqk: String) {
+        webarocha.visibility = View.VISIBLE
         webarocha.settings.apply {
             setAppCacheEnabled(true)
             allowFileAccessFromFileURLs = true
