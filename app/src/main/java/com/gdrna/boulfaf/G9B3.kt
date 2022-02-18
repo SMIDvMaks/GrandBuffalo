@@ -51,7 +51,7 @@ class G9B3 : AppCompatActivity() {
         webarocha.webViewClient = object : WebViewClient() {
             override fun onPageStarted(yqy: WebView?, ooo: String?, laqs: Bitmap?) {
                 super.onPageStarted(yqy, ooo, laqs)
-                if (ooo?.contains(par.POW("NDA0")) == true) kreqs(this@G9B3)
+                if (ooo?.contains(par.POW("Z2FwcHM9NDA0")) == true) kreqs(this@G9B3)
                 prox.visibility = ProgressBar.INVISIBLE
             }
 
